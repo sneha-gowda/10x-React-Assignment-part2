@@ -1,13 +1,48 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Bangla Sangam MN;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Header {
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+  grid-column-gap: 2%;
+  border-top: 2px solid gray;
+  border-bottom: 3px solid gray;
+  margin: 1% 0 2% 0;
+  padding: 1%;
+}
+.Header H1 {
+  color: Green;
+  font-size: -webkit-xxx-large;
+}
+.CameraIcon {
+  justify-self: right;
+  padding-right: 10%;
+}
+
+.LayoutContainer {
+  background-color: yellow;
+  width: 50%;
+  margin: 5% 25%;
+}
+.Layout {
+  margin: 5% 0;
+  border: 2px solid gray;
+  border-radius: 1%;
+}
+.Layout img {
+  width: 100%;
+  height: 19em;
+}
+.LayoutHeader {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+.UserName h2 {
+  color: gray;
 }
