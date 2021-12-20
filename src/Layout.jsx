@@ -1,8 +1,10 @@
 import React from 'react';
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
-import { faComment } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart} from "@fortawesome/free-regular-svg-icons";
+import { faComment } from "@fortawesome/free-regular-svg-icons"
+
+
 const Layout = (props)=>{
     const date=new Date(parseInt(props.date));
     console.log(date)
@@ -25,12 +27,15 @@ const Layout = (props)=>{
                 <img src={props.PostImage} alt="Can't Load"/>
                 <div className="LayoutFooter">
                     <div className="LayoutFooterLine1">
-                        <FontAwesomeIcon icon={faHeart} size="1x"/>
-                        <FontAwesomeIcon icon={faComment} size="1x" color=""/>
-                        <h4>{dateInStr}</h4>
+                        <div className="LayoutFooterIcons">
+                            <FontAwesomeIcon icon={faHeart} size="2x"/>
+                            <FontAwesomeIcon icon={faComment} size="2x" style={{"padding-left":"1vw"}}/>
+                            <h3>{props.likes} likes</h3>
+                        </div>
+                        <h3>{dateInStr}</h3>
                     </div>
-                    <h4>{props.likes} likes</h4>
-                    <h3>{props.description}</h3>
+                    
+                    <h2>{props.description}</h2>
                 </div>
             </div>
         </>

@@ -1,10 +1,26 @@
 
 {
     "user": [
-        {"name": "Siva",            "location": "Bengaluru",            "likes": 64,            "description": "Kick start your career",            "PostImage": "./Images/flight.jpeg",            "date": "86400000"
+        {
+            "name": "Rahul",
+            "location": "Hyderabad",
+            "likes": 30,
+            "description": "Sample Description for Post",
+            "PostImage": "./Images/flight.jpeg",
+            "date": "233333333321"},
+        {"name": "Siva",            "location": "Bengaluru",            "likes": 64,            "description": "Kick start your career",            "PostImage": "./Images/10xAcademy.jpeg",            "date": "86400000"
         },
         {"name": "Neeraj",            "location": "Pune",            "likes": 30,            "description": "Sample Description",            "PostImage": "./Images/swisz.jpeg",            "date": "2222222222221"
         },
-        {"name": "Rahul",            "location": "Hyderabad",            "likes": 30,            "description": "Sample Description for Post",            "PostImage": "./Images/10xAcademy.jpeg",            "date": "233333333321"
-        }]
+        {"name": "Rahul",            "location": "Hyderabad",            "likes": 30,            "description": "Sample Description for Post",            "PostImage": "./Images/flight.jpeg",            "date": "233333333321"
+        },
+        {
+            "name": "Rahul",
+            "location": "Hyderabad",
+            "likes": 30,
+            "description": "Sample Description for Post",
+            "PostImage": "./Images/flight.jpeg",
+            "date": "233333333321"
+        }
+    ]
 }

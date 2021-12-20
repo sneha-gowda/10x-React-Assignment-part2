@@ -23,9 +23,8 @@
 }
 
 .LayoutContainer {
-  background-color: yellow;
-  width: 50%;
-  margin: 5% 25%;
+  width: 45%;
+  margin: 5% 27%;
 }
 .Layout {
   margin: 5% 0;
@@ -45,4 +44,23 @@
 }
 .UserName h2 {
   color: gray;
+}
+
+.LayoutFooterLine1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: top;
+  padding: 3%;
+  padding-right: 5%;
+}
+.LayoutFooterIcons h3 {
+  margin-top: 0.5em;
+}
+.LayoutFooterLine1 h3 {
+  color: gray;
+}
+.LayoutFooter h2 {
+  padding-left: 3%;
+  padding-bottom: 3%;
 }

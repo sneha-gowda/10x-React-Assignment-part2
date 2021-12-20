@@ -18,7 +18,7 @@ const App=()=>{
     <div className='LayoutContainer'>
       {
         Data && Data.length>0 &&  Data.map((element,index)=>{
-        return <Layout  key={index} name={element.name} location={element.location} like={element.likes} 
+        return <Layout  key={index} name={element.name} location={element.location} likes={element.likes} 
           description={element.description} PostImage={element.PostImage} date={element.date} 
         />
       })}
