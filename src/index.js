@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FrontPage from './FrontPage'
+// import FrontPage from './FrontPage'
+import Home from './home';
 import "./index.css"
-import {BrowserRouter,Link,Routes,Route} from "react-router-dom";
 
-ReactDOM.render(<><BrowserRouter>
-<FrontPage></FrontPage>
-</BrowserRouter></>,
- document.getElementById('root'));
+import {BrowserRouter} from "react-router-dom";
 
 
+ReactDOM.render(<><BrowserRouter><Home /></BrowserRouter></>, document.getElementById('root'))

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart} from "@fortawesome/free-regular-svg-icons";
 import { faComment } from "@fortawesome/free-regular-svg-icons"
 
-
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 const Layout = (props)=>{
     const date=new Date(parseInt(props.date));
     console.log(date)
