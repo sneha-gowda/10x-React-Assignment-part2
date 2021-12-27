@@ -5,7 +5,7 @@ import Header from './Header.jsx';
 const App=()=>{
   const [Data,setData]=useState([]);//Declate a variable using useState to store the JSON data in import
   const getAPIData= async ()=>{
-    const uri ="  http://localhost:3000/user"
+    const uri ="  http://localhost:3004/user"
     let response=await fetch(uri)
     let Data=await response.json()
     setData(Data)//setting the Json data to Data variable 
