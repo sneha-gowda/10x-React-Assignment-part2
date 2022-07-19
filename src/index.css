@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Bangla Sangam MN;
+}
+
+.Header {
+  display: grid;
+  grid-template-columns: max-content max-content auto;
+  grid-column-gap: 2%;
+  border-top: 2px solid gray;
+  border-bottom: 3px solid gray;
+  margin: 1% 0 2% 0;
+  padding: 1%;
+}
+.Header H1 {
+  color: Green;
+  font-size: -webkit-xxx-large;
+}
+.CameraIcon {
+  justify-self: right;
+  padding-right: 10%;
+}
+
+.LayoutContainer {
+  width: 45%;
+  margin: 5% 27%;
+}
+.Layout {
+  margin: 5% 0;
+  border: 2px solid gray;
+  border-radius: 1%;
+}
+.Layout img {
+  width: 100%;
+  height: 19em;
+}
+.LayoutHeader {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+.UserName h2 {
+  color: gray;
+}
+
+.LayoutFooterLine1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: top;
+  padding: 3%;
+  padding-right: 5%;
+}
+.LayoutFooterIcons h3 {
+  margin-top: 0.5em;
+}
+.LayoutFooterLine1 h3 {
+  color: gray;
+}
+.LayoutFooter h2 {
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+.mainContentpage1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10% 0 5% 0;
+}
+.Link {
+  border: 2px solid rgb(80, 156, 80);
+  border-radius: 10%;
+  font-size: x-large;
+  text-decoration: none;
+  padding: 2%;
+  text-align: center;
+  color: rgb(3, 17, 22);
+  font-family: Apple Chancery;
+}
+
+.textClass {
+  text-align: center;
+}
+
+.textClass H1 {
+  font-family: Party LET;
+  font-size: 5em;
+  color: rgb(233, 125, 219);
+}
